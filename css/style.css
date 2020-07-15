@@ -1,0 +1,16 @@
+* {
+    font-family: Lobster;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    height: 1200px;
+    background: url(../jpg/bg/background_2.jpg) center center/cover no-repeat;
+}
+
+header {
+height: 76px;
+background-color:#ffff;
+}
