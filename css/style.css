@@ -56,7 +56,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(/src/icons/nav_1.png) center center/cover no-repeat
+    background: url(../icons/nav_1.png) center center/cover no-repeat
 }
     
 .menu_link_3 {
@@ -67,7 +67,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(/src/icons/nav_1.png) center center/cover no-repeat
+    background: url(../icons/nav_1.png) center center/cover no-repeat
 }
 
 .menu_link_4 {
@@ -78,7 +78,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(/src/icons/nav_1.png) center center/cover no-repeat
+    background: url(../icons/nav_1.png) center center/cover no-repeat
 }
 
 .menu_link_5 {
@@ -89,7 +89,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(/src/icons/nav_1.png) center center/cover no-repeat
+    background: url(../icons/nav_1.png) center center/cover no-repeat
 }
 
 .menu_link_6 {
@@ -100,5 +100,5 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(/src/icons/nav_2.png) center center/cover no-repeat
+    background: url(../icons/nav_2.png) center center/cover no-repeat
 }
