@@ -1,8 +1,12 @@
 * {
-    font-family: Lobster;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+    position: relative;
+    width: 1140px;
+    height: 76px;
+    margin: 0 auto;
 }
 
 .conteiner {
@@ -10,7 +14,91 @@
     background: url(../jpg/bg/background_2.jpg) center center/cover no-repeat;
 }
 
-header {
-height: 76px;
-background-color:#ffff;
+.line {
+    background: rgba(0, 0, 0, 0.55); 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.menu .menu_logo {
+    max-width: 100%;
+
+}
+
+.menu .menu_link {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.menu_logo {
+    display: inline-block;
+}
+
+.menu_link_1 {
+    display: inline-block;
+    padding: 2px 0px 0px 5px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.menu_link_2 {
+    display: block;
+    width: 165px;
+    height: 39px;
+    padding: 2px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    background: url(/src/icons/nav_1.png) center center/cover no-repeat
+}
+    
+.menu_link_3 {
+    display: block;
+    width: 165px;
+    height: 39px;
+    padding: 2px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    background: url(/src/icons/nav_1.png) center center/cover no-repeat
+}
+
+.menu_link_4 {
+    display: block;
+    width: 165px;
+    height: 39px;
+    padding: 2px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    background: url(/src/icons/nav_1.png) center center/cover no-repeat
+}
+
+.menu_link_5 {
+    display: block;
+    width: 165px;
+    height: 39px;
+    padding: 2px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    background: url(/src/icons/nav_1.png) center center/cover no-repeat
+}
+
+.menu_link_6 {
+    display: block;
+    width: 67px;
+    height: 39px;
+    padding: 2px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    background: url(/src/icons/nav_2.png) center center/cover no-repeat
 }
