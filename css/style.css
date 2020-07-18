@@ -2,16 +2,22 @@
     font-family: 'Lobster', cursive;
 }
 
+header {
+    position: relative;
+}
+
 nav {
     position: relative;
     width: 1140px;
     height: 76px;
     margin: 0 auto;
+    padding: 0;
 }
 
 .conteiner {
-    height: 1200px;
-    background: url(../jpg/bg/background_2.jpg) center center/cover no-repeat;
+    position: absolute;
+    width: 100%;
+    min-height: 76px;
 }
 
 .line {
@@ -21,14 +27,20 @@ nav {
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px;
+    box-sizing: border-box;
+    padding: 0;
     margin: 0 auto;
     list-style-type: none;
 }
 
-.menu .menu_logo {
-    max-width: 100%;
+.col-md-2 {
+    margin: 0 auto;
+    padding: 0;
+}
 
+.col-md-1 offset-md-1 {
+    margin: 0 auto;
+    padding: 0;
 }
 
 .menu .menu_link {
@@ -36,7 +48,7 @@ nav {
     font-size: 16px;
 }
 
-.menu_logo {
+.menu .menu_logo {
     display: inline-block;
 }
 
@@ -56,7 +68,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(../icons/nav_1.png) center center/cover no-repeat
+    background: url(../icons/nav_1.png) center center/cover no-repeat;
 }
     
 .menu_link_3 {
@@ -67,7 +79,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(../icons/nav_1.png) center center/cover no-repeat
+    background: url(../icons/nav_1.png) center center/cover no-repeat;
 }
 
 .menu_link_4 {
@@ -78,7 +90,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(../icons/nav_1.png) center center/cover no-repeat
+    background: url(../icons/nav_1.png) center center/cover no-repeat;
 }
 
 .menu_link_5 {
@@ -89,7 +101,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(../icons/nav_1.png) center center/cover no-repeat
+    background: url(../icons/nav_1.png) center center/cover no-repeat;
 }
 
 .menu_link_6 {
@@ -100,5 +112,231 @@ nav {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
-    background: url(../icons/nav_2.png) center center/cover no-repeat
+    background: url(../icons/nav_2.png) center center/cover no-repeat;
+}
+
+.content {
+    min-height: 1000px;
+    background: url(../jpg/bg/background_2.jpg) center center/cover no-repeat;
+}
+
+.content .content_header {
+    display: block;
+    padding-top: 70px;
+    font-family: Fredericka the Great;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.menu_content {
+    position: relative;
+    width: 1140px; 
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.col-md-8 {
+    position: absolute;
+    width: 780px;
+    height: 260px;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 2;
+}
+
+.img_1 {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.img_1_text {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95) center bottom/cover no-repeat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.col-md-4 {
+    position: absolute;
+    width: 360px;
+    height: 433px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.img_2 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-left: 780px;
+}
+
+.img_2_text {
+    background: rgba(0, 0, 0, 0.95) center bottom/cover no-repeat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.img_3 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 260px;
+}
+
+.img_3_text {
+    background: rgba(0, 0, 0, 0.95) center bottom/cover no-repeat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.img_4 {
+    display: block;
+    width: 420px;
+    height: 173px;
+    padding-top: 260px;
+    padding-left: 360px;
+}
+
+.img_4_text {
+    background: rgba(0, 0, 0, 0.95) center bottom/cover no-repeat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.img_5 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 433px;
+    padding-left: 360px;
+}
+
+.img_5_text {
+    background: rgba(0, 0, 0, 0.95) center bottom/cover no-repeat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.shared_data {
+    margin: 0 auto;
+    padding: 0;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.95);
+}
+
+.footer_network {
+    position: relative;
+    display: block;
+    width: 1140px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+i {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.youtube_logo {
+    position: absolute;
+    margin: 0;
+    border: 2px solid rgba(151, 151, 151, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    transition-duration: .15s;
+    color: rgba(151, 151, 151, 0.5);
+    font-size: 10px;
+}
+
+.instagram_logo {
+    position: absolute;
+    margin: 0 50px;
+    border: 2px solid rgba(151, 151, 151, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    transition-duration: .15s;
+    color: rgba(151, 151, 151, 0.5);
+    font-size: 10px;
+}
+
+.telegram_logo {
+    position: absolute;
+    margin: 0 100px;
+    border: 2px solid rgba(151, 151, 151, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    transition-duration: .15s;
+    color: rgba(151, 151, 151, 0.5);
+    font-size: 10px;
+}
+
+.social_network {
+    position: absolute;
+    margin: 7.5px 160px;
+    color: rgba(151, 151, 151, 0.5);
+    font-size: 15px;
+    letter-spacing: 0.2em;
+}
+
+.text_warning {
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+    color: rgba(151, 151, 151, 0.5);
+    text-align: center;
+    padding-top: 80px;
+}
+
+.content_maneger {
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+    color: rgba(151, 151, 151, 0.5);
+    text-align: center;
 }
